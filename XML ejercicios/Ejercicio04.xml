@@ -4,57 +4,30 @@
     <parteSuperior>
         <foto>
         </foto>
-        <informacion>
-            <grupo>
-                <elemento>Artista:</elemento>
-                <dato>ABC(2)</dato>
-            </grupo>
-
-            <grupo>
-                <elemento>Título</elemento>
-                <dato>The collection </dato>
-            </grupo>
-
-            <grupo>
-                <elemento>Sello:</elemento>
-                <dato>KARUSSELL INTERNATIONAL</dato>
-            </grupo>
-
-            <grupo>
-                <elemento>Referencia:</elemento>
-                <dato>551 831-2</dato>
-            </grupo>
-
-            <grupo>
-                <elemento>Año:</elemento>
-                <dato>1996</dato>
-            </grupo>
-
-            <grupo>
-                <elemento>País:</elemento>
-                <dato>Germany</dato>
-            </grupo>
-
-            <grupo>
-                <elemento>Formato:</elemento>
-                <dato>CD -Compilation</dato>
-            </grupo>
-            
-            <grupo>
-                <elemento>Genero:</elemento>
-                <dato>Funk/Soul, Electronic</dato>
-            </grupo>
-
-            <grupo>
-                <elemento>Estilo:</elemento>
-                <dato>Funk Disco, Synth Pop</dato>
-            </grupo>
-            
-            <grupo>
-                <elemento>Observaciones:</elemento>
-                <dato>Licensed from Mercury Records Ltd (London)</dato>        
-            </grupo>    
-        </informacion>
+    <grupoElemento>    
+        <elemento>ARTISTA:</elemento>
+        <elemento>TÍTULO:</elemento>
+        <elemento>SELLO:</elemento>
+        <elemento>REFERENCIA:</elemento>
+        <elemento>AÑO:</elemento>
+        <elemento>PAÍS:</elemento>
+        <elemento>FORMTATO:</elemento>
+        <elemento>GÉNERO:</elemento>
+        <elemento>ESTILO:</elemento>
+        <elemento>OBSERVACIONES:</elemento>
+    </grupoElemento>
+    <grupoDato>
+        <dato>ABC(2)</dato>
+        <dato>The collection </dato>
+        <dato>KARUSSELL INTERNATIONAL</dato>
+        <dato>551 831-2</dato>
+        <dato>1996</dato>
+        <dato>Germany</dato>
+        <dato>CD -Compilation</dato>
+        <dato>Funk/Soul, Electronic</dato>
+        <dato>Funk Disco, Synth Pop</dato>
+        <dato>Licensed from Mercury Records Ltd (London)</dato>
+    </grupoDato>
     </parteSuperior>
     <parteInferior>
         <cd1>CD1</cd1>

@@ -2,7 +2,8 @@ disco
 {
     background-color: #212733;
     font-family: monospace;
-    margin-left: 1%;
+    margin-left: 0.7%;
+    margin-top: 1%;
 }
 parteSuperior
 {
@@ -18,37 +19,34 @@ foto
     width: 10%;
     box-shadow: 6px 6px 8px black;
 }
-informacion
+
+grupoElemento
 {
     margin-left: 2%;
 }
-grupo
+grupoDato
 {
-    display: flex;
-    flex-direction: row;
+    margin-left: 5px;
 }
-textoIzquierda
-{
-    text-align: left;
-}
+
 elemento
 {
     color: gray;
     text-align: right;
-    
+    display: flex;
+    flex-direction: column;
 }
 dato
 {
     color: white;
-    
+    display: flex;
+    flex-direction: column;
 }
-grupo:first-of-type dato
+dato:first-of-type
 {
     color: orange;
-    font-weight: bold;
 }
-
-grupo:nth-child(3) dato
+dato:nth-child(3)
 {
     font-weight: bold;
 }
