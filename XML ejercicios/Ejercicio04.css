@@ -1,0 +1,84 @@
+disco
+{
+    background-color: #212733;
+    font-family: monospace;
+    margin-left: 1%;
+}
+parteSuperior
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+foto
+{
+    background-image: url("caratula.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10%;
+    box-shadow: 6px 6px 8px black;
+}
+informacion
+{
+    margin-left: 2%;
+}
+grupo
+{
+    display: flex;
+    flex-direction: row;
+}
+textoIzquierda
+{
+    text-align: left;
+}
+elemento
+{
+    color: gray;
+    text-align: right;
+    
+}
+dato
+{
+    color: white;
+    
+}
+grupo:first-of-type dato
+{
+    color: orange;
+    font-weight: bold;
+}
+
+grupo:nth-child(3) dato
+{
+    font-weight: bold;
+}
+
+cd1
+{
+    color: gray;
+}
+cancion
+{
+    display: flex;
+    flex-direction: row;
+}
+cancion:nth-child(even)
+{
+    background-color: #11161D;
+}
+numero
+{
+    color: white;
+    font-weight: bold;
+    margin-right: 0.7%;
+}
+
+titulo
+{
+    color: white;
+    margin-right: 0.3%;
+}
+duracion
+{
+    color: gray;
+}
