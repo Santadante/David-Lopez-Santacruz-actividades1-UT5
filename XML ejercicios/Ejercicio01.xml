@@ -17,5 +17,5 @@
     </jugadores>
     <jugadores>
         <nombre>Alfonso</nombre>
-    </jugadores>
+    </jugadores>       ----> Todos los jugadores mejor que estuvieran dentro de una etiqueta, así serían más fácil recuperar
 </equipo>
